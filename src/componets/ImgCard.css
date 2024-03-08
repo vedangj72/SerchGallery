@@ -1,0 +1,44 @@
+.img-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Add space between cards */
+}
+
+.card {
+    width: 200px;
+    /* Set a fixed width for each card */
+    margin-bottom: 20px;
+    /* Add margin between cards */
+    border: 1px solid #ccc;
+    /* Add border for visualization */
+}
+
+.img {
+    width: 100%;
+    /* Ensure images fill the card width */
+    height: 150px;
+    /* Set a fixed height for the images */
+    overflow: hidden;
+    /* Hide overflow */
+}
+
+.img img {
+    width: 100%;
+    /* Ensure images fill their container */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Ensure images cover the container */
+}
+
+.downbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    /* Add padding for better appearance */
+    text-align: center;
+    /* Center align text */
+    display: flex;
+    justify-content: space-around;
+    /* Distribute items evenly along the main axis */
+}

@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    /* Align items vertically in the center */
+}
+
+.input-group {
+    flex: 1;
+    /* Take remaining space */
+    padding: 8px;
+    /* Add padding for better appearance */
+    border: 1px solid #ccc;
+    /* Add border for input field */
+    border-radius: 4px;
+    /* Add border-radius for rounded corners */
+    margin-right: 8px;
+    /* Add margin between input and button */
+}
+
+.btn {
+    padding: 8px 16px;
+    /* Add padding for button */
+    background-color: #28a745;
+    /* Green background color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 4px;
+    /* Add border-radius for rounded corners */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+}
+
+.btn:hover {
+    background-color: #218838;
+    /* Darker green background color on hover */
+}
